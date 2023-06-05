@@ -1,11 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
 import Logo from "../../images/logo.png";
-import CtaSection from "../ctaSection/ctaSection";
-
-const SubmitHandler = (e) => {
-  e.preventDefault();
-};
 
 const Footer = (props) => {
   return (
