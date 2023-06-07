@@ -1,11 +1,12 @@
 import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
 import SimpleReactValidator from "simple-react-validator";
 
 const ContactForm = () => {
   const [forms, setForms] = useState({
     name: "",
     email: "",
-    subject: "",
+    service: "",
     phone: "",
     message: "",
   });
@@ -27,13 +28,44 @@ const ContactForm = () => {
     e.preventDefault();
     if (validator.allValid()) {
       validator.hideMessages();
-      setForms({
-        name: "",
-        email: "",
-        subject: "",
-        phone: "",
-        message: "",
-      });
+      emailjs
+        .sendForm(
+          process.env.REACT_APP_SERVICE_ID,
+          process.env.REACT_APP_TEMPLATE_ID,
+          forms,
+          process.env.REACT_APP_PUBLIC_KEY
+        )
+        .then(
+          (result) => {
+            toast.success("Message Sent successfully!", {
+              position: "top-right",
+              autoClose: 5000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+            });
+            setForms({
+              name: "",
+              email: "",
+              service: "",
+              phone: "",
+              message: "",
+            });
+          },
+          (error) => {
+            toast.error("Ops Message not Sent!", {
+              position: "top-right",
+              autoClose: 5000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+            });
+          }
+        );
     } else {
       validator.showMessages();
     }
@@ -89,9 +121,9 @@ const ContactForm = () => {
             <select
               onBlur={(e) => changeHandler(e)}
               onChange={(e) => changeHandler(e)}
-              value={forms.subject}
+              value={forms.service}
               type="text"
-              name="subject"
+              name="service"
             >
               <option>Choose a Service</option>
               <option>Frontend Development</option>
@@ -99,7 +131,7 @@ const ContactForm = () => {
               <option>Web Development</option>
               <option>Mobile Development</option>
             </select>
-            {validator.message("subject", forms.subject, "required")}
+            {validator.message("service", forms.service, "required")}
           </div>
         </div>
         <div className="col col-lg-12 col-12">
