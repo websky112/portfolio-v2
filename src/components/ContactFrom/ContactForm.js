@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 import SimpleReactValidator from "simple-react-validator";
 
 const ContactForm = () => {
+  const form = useRef();
   const [forms, setForms] = useState({
     name: "",
     email: "",
@@ -33,7 +34,7 @@ const ContactForm = () => {
         .sendForm(
           process.env.REACT_APP_SERVICE_ID,
           process.env.REACT_APP_TEMPLATE_ID,
-          forms,
+          form.current,
           process.env.REACT_APP_PUBLIC_KEY
         )
         .then(
@@ -74,7 +75,8 @@ const ContactForm = () => {
 
   return (
     <form
-      onSubmit={(e) => submitHandler(e)}
+      onSubmit={submitHandler}
+      ref={form}
       className="contact-validation-active"
     >
       <div className="row">
