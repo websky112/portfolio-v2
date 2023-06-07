@@ -128,9 +128,9 @@ const ProjectSingle = ({ maxWidth, open, onClose, state }) => {
                           your project
                         </p>
                       </div>
-                      <div className="wpo-contact-form-area">
+                      {/* <div className="wpo-contact-form-area">
                         <Contact />
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
