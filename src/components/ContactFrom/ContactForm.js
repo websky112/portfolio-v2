@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
 import SimpleReactValidator from "simple-react-validator";
 
 const ContactForm = () => {
