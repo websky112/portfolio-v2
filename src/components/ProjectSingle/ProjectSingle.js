@@ -44,8 +44,17 @@ const ProjectSingle = ({ maxWidth, open, onClose, state }) => {
 
   if (!state) return <></>;
 
-  const { companySummary, title, featureSummary, features, mission, imgs } =
-    state;
+  const {
+    companySummary,
+    title,
+    featureSummary,
+    features,
+    mission,
+    imgs,
+    feedback,
+    clientName,
+    clientRole,
+  } = state;
   return (
     <Dialog
       open={open}
@@ -94,14 +103,9 @@ const ProjectSingle = ({ maxWidth, open, onClose, state }) => {
                       </div>
                       <div className="col-lg-6">
                         <div className="wpo-project-single-item-quote">
-                          <p>
-                            "Amazing looking theme and instantly turns your
-                            application into a great looking one. Really shows
-                            that pro_ fessionals built this theme up. Very happy
-                            with the way the theme looks ."
-                          </p>
+                          <p>"{feedback}"</p>
                           <span>
-                            Robert - <span>Yellow Theme</span>
+                            {clientName} - <span>{clientRole}</span>
                           </span>
                         </div>
                       </div>
