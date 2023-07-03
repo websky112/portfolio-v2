@@ -26,7 +26,7 @@ const ContactArea = (props) => {
                 <div className="col col-lg-6 col-md-12 col-12">
                   <div className="wpo-contact-info">
                     <div className="info-item">
-                      <h2>Wilmington, DE 19805</h2>
+                      <h2>Monterey Park, CA 91754</h2>
                       <div className="info-wrap">
                         <div className="info-icon">
                           <i className="fi flaticon-location"></i>
