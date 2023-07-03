@@ -13,7 +13,7 @@ const Footer = (props) => {
                 <div className="logo widget-title">
                   <Link className="site-logo" to="/">
                     <img src={Logo} alt="" />
-                    Watson.
+                    Xin.
                   </Link>
                 </div>
                 <p>
@@ -38,7 +38,7 @@ const Footer = (props) => {
                     </li>
                     <li>
                       <a
-                        href="https://www.linkedin.com/in/watson-zhao-2a92441a4/"
+                        href="https://www.linkedin.com/in/xin-zhao-2a92441a4/"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -172,7 +172,7 @@ const Footer = (props) => {
           <div className="row">
             <div className="separator"></div>
             <p className="copyright">
-              Copyright &copy; 2022 Watson. All rights reserved.
+              Copyright &copy; 2022 Xin. All rights reserved.
             </p>
           </div>
         </div>

@@ -26,7 +26,7 @@ const Header = (props) => {
                     to="/"
                   >
                     <img src={Logo} alt="" />
-                    Watson
+                    Xin
                   </Link>
                 </div>
               </div>
@@ -115,7 +115,7 @@ const Header = (props) => {
                     <a
                       onClick={ClickHandler}
                       className="theme-btn"
-                      download="Watson Zhao - Resume"
+                      download="Xin Zhao - Resume"
                       href={cv}
                       title="ImageName"
                     >
