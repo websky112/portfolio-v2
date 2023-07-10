@@ -21,7 +21,7 @@ const Expriences = [
     logo: logo2,
     position: "Senior Full Stack Engineer",
     companyName: "Vivino, USA.",
-    workFrom: "Full time, Remote",
+    workFrom: "Contract, Remote",
     link: "https://www.vivino.com/app",
   },
   {
@@ -54,7 +54,9 @@ const Exprience = (props) => {
   return (
     <div className="wpo-work-area section-padding" id="experience">
       <div className="container">
-        <SectionTitle Title={"My Work Experience"} />
+        <div className="wpo-section-title">
+          <h2>My Work Experience</h2>
+        </div>
         <div className="wpo-work-wrap">
           {Expriences.map((exprience, exp) => (
             <div className="wpo-work-item" key={exp}>

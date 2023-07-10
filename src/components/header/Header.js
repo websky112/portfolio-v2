@@ -95,17 +95,6 @@ const Header = (props) => {
                         Contact
                       </Link>
                     </li>
-                    <li>
-                      <Link
-                        activeClass="active"
-                        to="blog"
-                        spy={true}
-                        smooth={true}
-                        duration={500}
-                      >
-                        Blog
-                      </Link>
-                    </li>
                   </ul>
                 </div>
               </div>

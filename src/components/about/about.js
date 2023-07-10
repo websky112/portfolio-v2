@@ -18,7 +18,7 @@ const About = (props) => {
                 <h3>
                   <span data-count="100">100</span>%
                 </h3>
-                <p>Clients Satisfections</p>
+                <p>Clients Satisfaction</p>
               </div>
             </div>
           </div>
