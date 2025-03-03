@@ -22,7 +22,7 @@ const Hero = () => {
                 <div className="wpo-static-hero-inner">
                   <div data-swiper-parallax="300" className="slide-title">
                     <h2>
-                      <span>Hello,</span>I am Xin.
+                      <span>Hello,</span>I am Kaiwen.
                     </h2>
                   </div>
                   <div data-swiper-parallax="300" className="slide-sub-title">

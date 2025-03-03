@@ -67,7 +67,7 @@ const Projects = [
     mission:
       "They would like to shape the future of the motor industry in Australia positively, and to add measurable value to dealership profitability and customer experience. The company goal is to remove vehicle valuation disparity, and provide a more equitable marketplace that will benefit consumers as a whole.",
     feedback:
-      "Xin's expertise as a frontend lead engineer and founding engineer have been instrumental in implementing high-quality solutions and significantly increasing commercial exchanges.",
+      "Kaiwen's expertise as a frontend lead engineer and founding engineer have been instrumental in implementing high-quality solutions and significantly increasing commercial exchanges.",
     clientName: "Riaz Azim",
     clientRole: "Product Manager",
   },
@@ -89,7 +89,7 @@ const Projects = [
     mission:
       "Vivino empowers people to enjoy wine to the fullest. Wine is about so much more than just a great label; it's about an experience and community and, of course, what's in the bottle. That's where Vivino comes in.",
     feedback:
-      "Xin's contribution to Vivino, particularly the implementation of the OCR module and the successful rating system, showcases his expertise and valuable impact on the project.",
+      "Kaiwen's contribution to Vivino, particularly the implementation of the OCR module and the successful rating system, showcases his expertise and valuable impact on the project.",
     clientName: "Riaz Azim",
     clientRole: "Brian - Director of Engineering",
   },
@@ -111,7 +111,7 @@ const Projects = [
     mission:
       "Furnish insurance at equitable rates to clients and promote the interests and welfare of public employees. These values are still a touchstone that CSE Insurance Group lives by today. In every way, CSE strive to do right by customers and protect them with well-made insurance.",
     feedback:
-      "Xin's expertise in addressing critical security issues and finding effective solutions was invaluable to ensuring the security of our front-end product.",
+      "Kaiwen's expertise in addressing critical security issues and finding effective solutions was invaluable to ensuring the security of our front-end product.",
     clientName: "Debanjan",
     clientRole: "VP of Software Engineering",
   },
