@@ -14,7 +14,7 @@ const Expriences = [
     position: "Lead Engineer",
     companyName: "MotorPlatform LTD, AUS.",
     workFrom: "Full time, Sydney",
-    link: "https://www.motorplatform.com.au/features",
+    link: "https://www.motorplatform.com.au/",
   },
   {
     date: "2019 - 2020",
