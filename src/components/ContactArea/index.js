@@ -48,7 +48,7 @@ const ContactArea = (props) => {
                       </div>
                     </div>
                     <div className="info-item">
-                      <h2>+1 561-437-2202</h2>
+                      <h2>+1 (703) 596-2152</h2>
                       <div className="info-wrap">
                         <div className="info-icon">
                           <i className="fi flaticon-phone-call"></i>
