@@ -32,11 +32,6 @@ const Footer = (props) => {
                       </a>
                     </li>
                     <li>
-                      <Link to="/">
-                        <i className="fa fa-telegram"></i>
-                      </Link>
-                    </li>
-                    <li>
                       <a
                         href="https://www.linkedin.com/in/kaiwen-shen-98973a353/"
                         target="_blank"
@@ -46,14 +41,15 @@ const Footer = (props) => {
                       </a>
                     </li>
                     <li>
-                      <Link to="/">
-                        <i className="ti-pinterest"></i>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/">
-                        <i className="ti-vimeo-alt"></i>
-                      </Link>
+                      <a
+                        href="https://stackoverflow.com/users/29796115/bluestar"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <Link to="/">
+                          <i className="ti-reddit"></i>
+                        </Link>
+                      </a>
                     </li>
                   </ul>
                 </div>
