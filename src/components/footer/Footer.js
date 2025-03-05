@@ -46,9 +46,7 @@ const Footer = (props) => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <Link to="/">
-                          <i className="ti-reddit"></i>
-                        </Link>
+                        <i className="ti-reddit"></i>
                       </a>
                     </li>
                   </ul>
