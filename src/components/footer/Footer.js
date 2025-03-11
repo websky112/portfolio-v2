@@ -95,6 +95,11 @@ const Footer = (props) => {
                   </li>
                   <li>
                     <Link to="service" spy={true} smooth={true} duration={500}>
+                      Backend Development
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="service" spy={true} smooth={true} duration={500}>
                       Fullstack Development
                     </Link>
                   </li>

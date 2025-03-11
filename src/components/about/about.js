@@ -38,49 +38,49 @@ const About = (props) => {
                 <div className="grid">
                   <div className="grid-inner">
                     <h3>
-                      <span data-count="98">98</span>%
+                      <span data-count="98">95</span>
                     </h3>
-                    <p>React.js</p>
+                    <p>Front-End</p>
                   </div>
                 </div>
                 <div className="grid">
                   <div className="grid-inner">
                     <h3>
-                      <span data-count="92">92</span>%
+                      <span data-count="92">96</span>
                     </h3>
-                    <p>React Native</p>
+                    <p>Back End</p>
                   </div>
                 </div>
                 <div className="grid">
                   <div className="grid-inner">
                     <h3>
-                      <span data-count="88">94</span>%
+                      <span data-count="88">90</span>
                     </h3>
-                    <p>Next.js</p>
+                    <p>Cloud & DevOps</p>
                   </div>
                 </div>
                 <div className="grid">
                   <div className="grid-inner">
                     <h3>
-                      <span data-count="72">88</span>%
+                      <span data-count="72">84</span>
                     </h3>
-                    <p>Node.js</p>
+                    <p>CI/CD</p>
                   </div>
                 </div>
                 <div className="grid">
                   <div className="grid-inner">
                     <h3>
-                      <span data-count="43">76</span>%
+                      <span data-count="43">90</span>
                     </h3>
-                    <p>Python</p>
+                    <p>Collaboration</p>
                   </div>
                 </div>
                 <div className="grid">
                   <div className="grid-inner">
                     <h3>
-                      <span data-count="37">62</span>%
+                      <span data-count="37">100</span>
                     </h3>
-                    <p>AWS</p>
+                    <p>Remote</p>
                   </div>
                 </div>
               </div>

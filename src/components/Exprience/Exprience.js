@@ -11,15 +11,15 @@ const Expriences = [
   {
     date: "2020 - 2023",
     logo: logo1,
-    position: "Lead Engineer",
-    companyName: "MotorPlatform LTD, AUS.",
+    position: "Senior Full-Stack Engineer",
+    companyName: "MotorPlatform LTD",
     workFrom: "Full time, Sydney",
     link: "https://www.motorplatform.com.au/",
   },
   {
     date: "2019 - 2020",
     logo: logo2,
-    position: "Senior Full Stack Engineer",
+    position: "Full-Stack Engineer",
     companyName: "Vivino, USA.",
     workFrom: "Contract, Remote",
     link: "https://www.vivino.com/app",
@@ -27,7 +27,7 @@ const Expriences = [
   {
     date: "2018 - 2019",
     logo: logo3,
-    position: "Security Frontend Engineer",
+    position: "Full-Stack Engineer",
     companyName: "CSE Insurance Group, USA.",
     workFrom: "Contract, Remote",
     link: "https://cseinsurance.com/",
@@ -35,7 +35,7 @@ const Expriences = [
   {
     date: "2016 - 2018",
     logo: logo4,
-    position: "Full Stack Engineer",
+    position: "Software Engineer",
     companyName: "Blip Technologies, USA.",
     workFrom: "Full time, Remote",
     link: "https://shop.carblip.com",
@@ -43,7 +43,7 @@ const Expriences = [
   {
     date: "2013 - 2016",
     logo: logo5,
-    position: "Full Stack Engineer",
+    position: "Junior Software Engineer",
     companyName: "HangarA, USA.",
     workFrom: "Full time, Remote",
     link: "https://hangara.com/",

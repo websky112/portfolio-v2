@@ -42,7 +42,7 @@ const Projects = [
   {
     Id: "1",
     pImg: MotorPlatformLogo,
-    title: "MotorPlatform - React.js, React Native, Node.js",
+    title: "MotorPlatform Ltd",
     subTitle: "Automotive Valuation and Wholesale Auction Solution",
     imgs: [
       MotorPlatformImage1,
@@ -67,14 +67,14 @@ const Projects = [
     mission:
       "They would like to shape the future of the motor industry in Australia positively, and to add measurable value to dealership profitability and customer experience. The company goal is to remove vehicle valuation disparity, and provide a more equitable marketplace that will benefit consumers as a whole.",
     feedback:
-      "Kaiwen's expertise as a frontend lead engineer and founding engineer have been instrumental in implementing high-quality solutions and significantly increasing commercial exchanges.",
+      "Kaiwen's expertise as a senior full-stack engineer and founding engineer have been instrumental in implementing high-quality solutions and significantly increasing commercial exchanges.",
     clientName: "Riaz Azim",
     clientRole: "Product Manager",
   },
   {
     Id: "2",
     pImg: VivinoLogo,
-    title: "Vivino - React Native, AWS, Node.js",
+    title: "Vivino",
     subTitle: "Wine Marketplace Mobile App",
     imgs: [VivinoImage1, VivinoImage2, VivinoImage3],
     companySummary:
@@ -90,13 +90,13 @@ const Projects = [
       "Vivino empowers people to enjoy wine to the fullest. Wine is about so much more than just a great label; it's about an experience and community and, of course, what's in the bottle. That's where Vivino comes in.",
     feedback:
       "Kaiwen's contribution to Vivino, particularly the implementation of the OCR module and the successful rating system, showcases his expertise and valuable impact on the project.",
-    clientName: "Riaz Azim",
-    clientRole: "Brian - Director of Engineering",
+    clientName: "Brian",
+    clientRole: "Director of Engineering",
   },
   {
     Id: "3",
     pImg: CSELogo,
-    title: "CSE Insurance - React.js, Next.js, Encryption",
+    title: "CSE Insurance",
     subTitle: "Insurance Company",
     imgs: [],
     companySummary:
@@ -118,7 +118,7 @@ const Projects = [
   {
     Id: "4",
     pImg: BlipLogo,
-    title: "Blip Technologies - Angular, React Native, Node.js",
+    title: "Blip Technologies",
     subTitle: "Motor Marketplace",
     imgs: [BlipImage1, BlipImage2, BlipImage3, BlipImage4, BlipImage5],
     companySummary:
@@ -138,7 +138,7 @@ const Projects = [
   {
     Id: "5",
     pImg: HangarALogo,
-    title: "HangarA - Angular.js, React, Python, AWS",
+    title: "HangarA",
     subTitle: "E-logistics automation SaaS",
     imgs: [
       HangarAImage1,
@@ -163,7 +163,7 @@ const Projects = [
   {
     Id: "6",
     pImg: BlizzfullLogo,
-    title: "Blizzfull - Vue2, Vuex, Vuetify, Bootstrap",
+    title: "Blizzfull",
     subTitle: "Online Ordering Platform for Restaurant",
     imgs: [
       BlizzfullImage1,
