@@ -100,7 +100,7 @@ const Header = (props) => {
               </div>
               <div className="col-lg-2 col-md-2 col-2">
                 <div className="header-right">
-                  <div className="header-btn">
+                  {/* <div className="header-btn">
                     <a
                       onClick={ClickHandler}
                       className="theme-btn"
@@ -110,7 +110,7 @@ const Header = (props) => {
                     >
                       Resume
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
