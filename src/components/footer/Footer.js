@@ -33,7 +33,7 @@ const Footer = (props) => {
                     </li>
                     <li>
                       <a
-                        href="https://www.linkedin.com/in/kaiwen-shen-98973a353/"
+                        href="https://www.linkedin.com/in/kaiwen-shen-394212360/"
                         target="_blank"
                         rel="noreferrer"
                       >
